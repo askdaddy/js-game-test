@@ -3,7 +3,6 @@
  */
 
 var Phaser = require('phaser');
-var App = require('./app');
 
 var game = new Phaser.Game(800, 600, Phaser.AUTO, 'Game-Container', {
     preload: preload,
